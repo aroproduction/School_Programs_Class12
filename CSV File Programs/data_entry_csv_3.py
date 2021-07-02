@@ -1,6 +1,6 @@
 # Entering data in csv files
 import csv
-fh = open("Resources/Employee.csv", "w", newline="")
+fh = open("../Resources/Employee.csv", "w", newline="")
 ewriter = csv.writer(fh)
 empdata = [
     ['Empno', 'Name', 'Designation', 'Salary'],

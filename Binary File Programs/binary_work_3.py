@@ -1,9 +1,9 @@
 # Searching in Binary Files
 import pickle
-stu ={}
+stu = {}
 found = False
-fin = open('Resources/Stu.dat', 'rb')
-searchkeys  = [1, 3]
+fin = open('../Resources/Stu.dat', 'rb')
+searchkeys = [1, 3]
 
 try:
     print("Searching in File Stu.dat...")
@@ -13,7 +13,7 @@ try:
             print(stu)
             found = True
 except EOFError:
-    if found == False:
+    if not found:
         print("No such records found in the file")
     else:
         print("Search Successful.")

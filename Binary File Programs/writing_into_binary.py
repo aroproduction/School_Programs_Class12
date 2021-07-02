@@ -1,7 +1,7 @@
 import pickle
-stu={}
-stufile = open('Resources/Stu.dat', 'wb')
-ans='y'
+stu = {}
+stufile = open('../Resources/Stu.dat', 'wb')
+ans = 'y'
 while ans == 'y':
     rno = int(input("Enter Roll No.: "))
     name = input("Enter Name: ")
@@ -14,7 +14,7 @@ while ans == 'y':
 
 stufile.close()
 
-stufile = open("Resources/Stu.dat", "rb")
+stufile = open("../Resources/Stu.dat", "rb")
 try:
     while True:
         print(pickle.load(stufile))

@@ -6,5 +6,5 @@ def factorial(n):
     return n * factorial(n-1)
 
 
-n = int(input("Enter a number (>0): "))
-print("Factorial of", n, "is", factorial(n))
+npt = int(input("Enter a number (>0): "))
+print("Factorial of", npt, "is", factorial(npt))

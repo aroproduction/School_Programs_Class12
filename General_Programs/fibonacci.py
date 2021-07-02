@@ -1,4 +1,4 @@
-# Default Fibonnaci Numbers using Recursion
+# Default Fibonacci Numbers using Recursion
 
 def fib(n):
     if n == 1:

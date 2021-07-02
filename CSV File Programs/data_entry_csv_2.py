@@ -1,6 +1,6 @@
 # Entering data in csv files
 import csv
-fh = open("Resources/compresult.csv", "w")
+fh = open("../Resources/compresult.csv", "w")
 cwriter = csv.writer(fh)
 compdata = [
     ['Name', 'Points', 'Rank'],

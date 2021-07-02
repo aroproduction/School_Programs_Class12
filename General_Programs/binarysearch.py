@@ -1,5 +1,6 @@
 # Binary Search Using Function
 
+
 def binsearch(ar, key):
     low = 0
     high = len(ar) - 1
@@ -14,6 +15,7 @@ def binsearch(ar, key):
     else:
         return -999
 
+
 # __main__
 ar = [12, 15, 21, 25, 28, 32, 33, 36, 43, 45]
 print("The given array is: ", ar)
@@ -23,4 +25,3 @@ if res >= 0:
     print(item, "FOUND at index", res)
 else:
     print("Sorry!", item, "NOT FOUND in array")
-    

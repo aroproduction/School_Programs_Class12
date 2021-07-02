@@ -3,7 +3,7 @@
 import pickle
 stu = {}
 found = False
-fin = open('Resources/Stu.dat', 'rb+')
+fin = open('../Resources/Stu.dat', 'rb+')
 
 try:
     while True:
@@ -22,7 +22,7 @@ except EOFError:
         print("\n"+"Record(s) successfully updated."+"\n")
     fin.close()
    
-with open('Resources/Stu.dat', 'rb') as file:
+with open('../Resources/Stu.dat', 'rb') as file:
     updated_records = {}
     print("Updated Records:")
     try:
