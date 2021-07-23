@@ -1,0 +1,3 @@
+This is the file we are going to search for "the".
+the number of "the" will be counted in the python program.
+using the file handling method.
